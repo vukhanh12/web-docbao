@@ -1,0 +1,17 @@
+.mr-auto{
+    margin: 10px;
+    display: flex;
+}
+.setle{
+    padding-left: 10px;;
+}
+.TopMenu{
+    display: flex;
+}
+.header{
+    color: red;
+    text-align: center;
+}
+.title{
+    text-align: center;
+}
