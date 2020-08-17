@@ -8,18 +8,19 @@ export default class Login extends Component{
         return(
            <div>
                 <div className='login-box'>
-                <h1>Login</h1>
-                <div className='textbox'>
-                <i class="fa fa-user" aria-hidden="true"></i>
-                    <input type="text" placeholder="Username" />
-                </div>
-                
+                    <h1>Login</h1>
+                    <div className='textbox'>
+                    <i class="fa fa-user" aria-hidden="true"></i>
+                        <input type="text" placeholder="Username" />
+                    </div>
+                    
 
-                <div className='textbox'>
-                <i class="fa fa-lock" aria-hidden="true"></i>
-                    <input type="password" placeholder="Password" />
-                </div>
-                <input type="button" className="btn" value="Sign in"/>
+                    <div className='textbox'>
+                    <i class="fa fa-lock" aria-hidden="true"></i>
+                        <input type="password" placeholder="Password" />
+                    </div>
+                    
+                    <input type="button" className="btn" value="Sign in"/>
                  </div>
 
                 
